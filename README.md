@@ -15,18 +15,64 @@ The board of directors wants to gain a better understanding of wholesale revenue
 This company have provided access to their database, which contains the following table called `sales`:
 
 #### Sales
-| Column | Data type | Description |
-|--------|-----------|-------------|
-| `order_number` | `VARCHAR` | Unique order number. |
-| `date` | `DATE` | Date of the order, from June to August 2021. |
-| `warehouse` | `VARCHAR` | The warehouse that the order was made from&mdash; `North`, `Central`, or `West`. |
-| `client_type` | `VARCHAR` | Whether the order was `Retail` or `Wholesale`. |
-| `product_line` | `VARCHAR` | Type of product ordered. |
-| `quantity` | `INT` | Number of products ordered. | 
-| `unit_price` | `FLOAT` | Price per product (dollars). |
-| `total` | `FLOAT` | Total price of the order (dollars). |
-| `payment` | `VARCHAR` | Payment method&mdash;`Credit card`, `Transfer`, or `Cash`. |
-| `payment_fee` | `FLOAT` | Percentage of `total` charged as a result of the `payment` method. |
+
+<table>
+  <tr>
+    <th>Column</th>
+    <th>Data Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>order_number</code></td>
+    <td>VARCHAR</td>
+    <td>Unique order number.</td>
+  </tr>
+  <tr>
+    <td><code>date</code></td>
+    <td>DATE</td>
+    <td>Date of the order, from June to August 2021.</td>
+  </tr>
+  <tr>
+    <td><code>warehouse</code></td>
+    <td>VARCHAR</td>
+    <td>The warehouse where the order was made from — <strong>North</strong>, <strong>Central</strong>, or <strong>West</strong>.</td>
+  </tr>
+  <tr>
+    <td><code>client_type</code></td>
+    <td>VARCHAR</td>
+    <td>Whether the order was <strong>Retail</strong> or <strong>Wholesale</strong>.</td>
+  </tr>
+  <tr>
+    <td><code>product_line</code></td>
+    <td>VARCHAR</td>
+    <td>Type of product ordered.</td>
+  </tr>
+  <tr>
+    <td><code>quantity</code></td>
+    <td>INT</td>
+    <td>Number of products ordered.</td>
+  </tr>
+  <tr>
+    <td><code>unit_price</code></td>
+    <td>FLOAT</td>
+    <td>Price per product (dollars).</td>
+  </tr>
+  <tr>
+    <td><code>total</code></td>
+    <td>FLOAT</td>
+    <td>Total price of the order (dollars).</td>
+  </tr>
+  <tr>
+    <td><code>payment</code></td>
+    <td>VARCHAR</td>
+    <td>Payment method — <strong>Credit card</strong>, <strong>Transfer</strong>, or <strong>Cash</strong>.</td>
+  </tr>
+  <tr>
+    <td><code>payment_fee</code></td>
+    <td>FLOAT</td>
+    <td>Percentage of <code>total</code> charged as a result of the <code>payment</code> method.</td>
+  </tr>
+</table>
 
 ### Exploratory Data Analysis (EDA)
 
